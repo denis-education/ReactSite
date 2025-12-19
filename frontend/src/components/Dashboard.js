@@ -149,20 +149,6 @@ const Dashboard = ({ onLogout }) => {
           <h2>Быстрые действия</h2>
           <div className="action-buttons">
             <button 
-              onClick={() => alert('Профиль в разработке!')}
-              className="action-btn"
-              disabled={isLoggingOut}
-            >
-              Редактировать профиль
-            </button>
-            <button 
-              onClick={() => alert('Настройки в разработке!')}
-              className="action-btn"
-              disabled={isLoggingOut}
-            >
-              Настройки
-            </button>
-            <button 
               onClick={handleRefreshToken}
               className="action-btn secondary"
               disabled={isLoggingOut}
